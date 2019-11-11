@@ -1,0 +1,10 @@
+.notfound {
+    min-height: 100vh;
+    padding: 180px 100px;
+    text-align: left;
+}
+h1 {
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 90px;
+    color: #999;
+}

@@ -1,0 +1,37 @@
+.footer {
+    margin: 0 !important;
+    max-width: 100% !important;
+    display: block;
+    bottom: 0;
+}
+
+.section_footer {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 20px 100px;
+    height: 200px;
+}
+
+.row {
+    padding: 20px;
+    display: block;
+}
+
+.section_footer a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: #333;
+    transition: color .4s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.section_footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+
+.dev {
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}

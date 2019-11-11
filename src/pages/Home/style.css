@@ -1,0 +1,153 @@
+.home {
+    min-height: 100vh;
+    padding: 180px 100px;
+}
+
+.home label {
+    font-family: 'Roboto' ,sans-serif;
+    color: #777;
+    font-weight: 100;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.home small {
+    padding-top: 10px;
+    color: #999 !important;
+    opacity: 0.8;
+}
+
+.home form {
+    margin: 0 auto; 
+    max-width: 500px;
+}
+
+.home form > input:focus {
+    background: #fff !important;
+}
+
+.home input {
+    font-family: 'Roboto' ,sans-serif;
+    color: #777;
+    font-weight: 100 !important;
+    font-size: 22px;
+    background: #f1f1f1 !important;
+    border: none !important;
+    text-align: center;
+    max-width: 500px;
+}
+
+.home input::placeholder {
+    color: #999 !important;
+    opacity: 0.5 !important;
+    font-family: 'Roboto' ,sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.home .btn {
+    margin: 30px;
+    font-family: 'Roboto' ,sans-serif;
+    font-weight: 100;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.home .btn:disabled {
+    opacity: 0.5 !important;
+    color: #f1f1f1;
+}
+
+.home .list {
+    text-align: center !important;
+}
+
+.home .alert {
+    background: #f1f1f1 !important;
+    border: none !important;
+    width: 250px;
+}
+
+.home .alert, .lista {
+    animation: 1.5s fade-in;
+}
+
+.home table {
+    width: 100% !important;
+    /*text-transform: uppercase !important;*/
+}
+
+.home table tr {
+    border-radius: 10px !important;
+}
+
+table td, table th {
+    vertical-align: middle !important;
+}
+
+.home .link {
+    color: #6c757d !important;
+}
+
+.home .especs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    vertical-align: middle;
+}
+
+.home .col-A {
+    width: 16%;
+}
+.home .col-B {
+    width: 5%;
+}
+.home .col-C {
+    width: 30%;
+}
+
+.home .badge {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+    background: #6c757d !important;
+    font-family: 'Roboto' ,sans-serif;
+    font-weight: 100;
+}
+
+@keyframes fade-in {
+    from { 
+        opacity: 0;
+    }
+    to { 
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    from { 
+        opacity: 1;
+    }
+    to { 
+        opacity: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        padding: 150px 50px;
+    }
+    .home label {
+        font-size: 20px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 700px) {
+    .home {
+        padding: 150px 20px;
+    }
+    .home label {
+        font-size: 20px;
+        text-align: left;
+    }
+}
